@@ -156,6 +156,12 @@ The long-term aim is to support clearer, safer, and more explainable assessment 
 
 ---
 
+## Documentation
+
+Public-safe project documentation:
+
+- [Architecture Overview](docs/architecture_overview.md)
+
 ## Current Status
 
 This repository is an early public showcase.
