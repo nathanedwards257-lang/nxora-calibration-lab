@@ -163,7 +163,8 @@ Public-safe project documentation:
 - [Architecture Overview](docs/architecture_overview.md)
 - [Calibration Philosophy](docs/calibration_philosophy.md)
 - [Public Safety Boundary](docs/public_safety_boundary.md)
-
+- [Calibration Case Study](docs/calibration_case_study.md)
+- [Evidence-Driven Assessment](docs/evidence_driven_assessment.md)
 ## Current Status
 
 This repository is an early public showcase.
