@@ -162,6 +162,7 @@ Public-safe project documentation:
 
 - [Architecture Overview](docs/architecture_overview.md)
 - [Calibration Philosophy](docs/calibration_philosophy.md)
+- [Public Safety Boundary](docs/public_safety_boundary.md)
 
 ## Current Status
 
