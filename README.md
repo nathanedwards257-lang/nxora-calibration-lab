@@ -161,6 +161,7 @@ The long-term aim is to support clearer, safer, and more explainable assessment 
 Public-safe project documentation:
 
 - [Architecture Overview](docs/architecture_overview.md)
+- [Calibration Philosophy](docs/calibration_philosophy.md)
 
 ## Current Status
 
