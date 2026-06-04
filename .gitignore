@@ -216,3 +216,66 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ============================================================
+# NXORA PRIVATE ENGINE SAFETY BOUNDARY
+# Do not track proprietary engine files, calibration artefacts,
+# examiner scripts, protected ladders, anchors, weights, logs,
+# or private runtime outputs.
+# ============================================================
+
+# Private NXORA engine source files
+nxora_engine_*.py
+nxora_engine_*.pyc
+coreexam_state.py
+core/exam_state.py
+nxora_batch_runner.py
+nxora_full_calibration_runner*.py
+calibration_report*.py
+run_calibration.bat
+
+# Private anchors and weights
+anchors_*.json
+anchors_*.jsonl
+anchor_weights_*.json
+weights_*.json
+
+# Calibration outputs and traces
+*_output.json
+*_outputs.json
+calibration_report*.json
+CURRENT_*_UPLOAD.json
+protected_ladder*.json
+phase*_ladder*.json
+run_log.jsonl
+cycle_log*.jsonl
+
+# Gold scripts and examiner materials
+03_GOLD_SCRIPTS/
+VERIFIED/
+CANDIDATE/
+PHASE*_SYNTHETIC_STRESS_PACK/
+dataset_manifest.json
+
+# Calibration test folders
+04_CALIBRATION_TESTS/
+engine_outputs/
+phase*_outputs/
+phase*_synthetic_outputs/
+
+# Audit logs and private reports
+06_AUDIT_LOGS/
+audit_logs/
+failure_map*.txt
+phase*_failure_map*.txt
+
+# Private snapshots
+stable_snapshot/
+01_ENGINE_ACTIVE/
+private/
+secret/
+protected/
+
+# Local environment files
+.env
+.env.*
+*.local
